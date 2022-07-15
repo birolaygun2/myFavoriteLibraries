@@ -27,3 +27,6 @@ http://michalsnik.github.io/aos/
     data-aos-anchor-placement="top-center"
   >
   </div>
+
+
+ for useEffect build Error      // eslint-disable-next-line
