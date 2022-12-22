@@ -27,3 +27,30 @@ http://michalsnik.github.io/aos/
     data-aos-anchor-placement="top-center"
   >
   </div>
+
+
+------------------
+import setupLocatorUI from "@locator/runtime"   - component bulmaya yarar. orhan abiden
+--------------------
+  const callApi = () => {
+    console.log("worksss");
+  };
+
+  const [debouncedCallApi] = useState(() => _.debounce(callApi, 1000));
+
+  function handleChange() {
+    debouncedCallApi();
+  }
+  
+                      onChange={(e) => {
+                      setData({
+                        ...data,
+                        zipCode: e.target.value,
+                      });
+                      handleChange();
+                    }}
+                  />
+----------------------------------
+                  
+  
+
